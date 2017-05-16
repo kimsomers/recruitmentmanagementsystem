@@ -85,6 +85,7 @@
             this.btnSearchShowAll = new System.Windows.Forms.Button();
             this.btnSearchEdit = new System.Windows.Forms.Button();
             this.btnSearchRemove = new System.Windows.Forms.Button();
+            this.btnOpenCV = new System.Windows.Forms.Button();
             this.grpBoxSearch.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSearchCandidate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cANDIDATEBindingSource)).BeginInit();
@@ -568,11 +569,21 @@
             this.btnSearchRemove.UseVisualStyleBackColor = true;
             this.btnSearchRemove.Click += new System.EventHandler(this.btnSearchRemove_Click);
             // 
+            // btnOpenCV
+            // 
+            this.btnOpenCV.Location = new System.Drawing.Point(665, 14);
+            this.btnOpenCV.Name = "btnOpenCV";
+            this.btnOpenCV.Size = new System.Drawing.Size(75, 23);
+            this.btnOpenCV.TabIndex = 9;
+            this.btnOpenCV.Text = "Open CV";
+            this.btnOpenCV.UseVisualStyleBackColor = true;
+            // 
             // Search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(914, 417);
+            this.Controls.Add(this.btnOpenCV);
             this.Controls.Add(this.btnSearchRemove);
             this.Controls.Add(this.btnSearchEdit);
             this.Controls.Add(this.btnSearchShowAll);
@@ -658,5 +669,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn cANDIDATEJOBTITLEDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn cANDIDATENAMEDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn cANDIDATEIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Button btnOpenCV;
     }
 }
